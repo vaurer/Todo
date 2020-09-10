@@ -121,7 +121,7 @@ function getHTMLTasks2() {
       var minutes = temp.getMinutes();
       tstamp2= hours + " " + minutes
       tStamp=date+". "+month+". "+year
-    //html += "<div class='container'><div class='row'><div class='col-1' id='first'><input onClick='markTask(this)' name='checkbox' data-indexOf='" + indexOf+ "' type='checkbox'" + checked + "/></div><div class='col-4' id='second'>" + element.name + " / " + element.responsible + "</div><div class='col-2' id='second' style='background-image: url("+ source +"); background-size: cover; background-position: center;'>" +tstamp2 + "</div><div class='col-3' id='fourth'>"+ tStamp +"</div><div class='col-2' id='fourth'><button onClick='removeTask("+indexOf+")'>Remove Task</button></div></div></div>"
+      html += "<div class='container'><div class='row'><div class='col-1' id='first'><input onClick='markTask(this)' name='checkbox' data-indexOf='" + indexOf+ "' type='checkbox'" + checked + "/></div><div class='col-4' id='second'>" + element.name + " / " + element.responsible + "</div><div class='col-2' id='second' style='background-image: url("+ source +"); background-size: cover; background-position: center;'>" +tstamp2 + "</div><div class='col-3' id='fourth'>"+ tStamp +"</div><div class='col-2' id='fourth'><button onClick='removeTask("+indexOf+")'>Remove Task</button></div></div></div>"
     
     indexOf++;
   });
